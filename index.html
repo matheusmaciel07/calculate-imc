@@ -59,35 +59,30 @@ form button:hover{
     background: var(--segundo);
 
 }
+h2{
+    text-align: center;
+}
+.resultadoimc{
+    text-align: center;
+}
+.paragrafo-resultado{
+    background: rgb(85, 222, 95);
+    padding: 10px;
+}
+.paragrafo-resultado-invalido{
+    background: rgb(220, 104, 104);
+    padding: 10px;
+}
   </style>
 </head>
 <body >
 
     <section class="container">
-        <h1>TABELA IMC</h1>
-        <div class="div-imc">
-            <h2>IMC</h2>
-            <p>Menos do que 18,5</p>
-            <p>Entre 18,5 e 24,9</p>
-            <p>Entre 25 e 29,9</p>
-            <p>Entre 30 e 34,9</p>
-            <p>Entre 35 e 39,9</p>
-            <p>Mais do que 40</p>
-    </div>
-    <div class="div-resultado">
-        <h2>Resultado</h2>
-        <p>Abaixo do peso</p>
-        <p>Peso normal</p>
-        <p>Sobre peso</p>
-        <p>Obesidade 1 grau</p>
-        <p>Obesidade 2 grau</p>
-        <p>Obesidade 3 grau</p>
-    </div>
          <h2>Calcule seu IMC</h2>
-        <form action="" class="formulario">
-            <p>Peso: <input type="text" class="inputPeso"></p>
-            <p>Altura: <input type="text" class="inputAltura"></p>
-            <BUtton>Enviar</BUtton>
+        <form action="/" class="formulario" method="POST">
+            <p>Peso <input type="text" class="inputPeso"></p>
+            <p>Altura <input type="text" class="inputAltura"></p>
+            <bUtton>Enviar</button>
 
 
         </form>
@@ -96,6 +91,6 @@ form button:hover{
 
 
 
-    <script src="./js/js1.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
